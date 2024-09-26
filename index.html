@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="form" action="" method="post">
+      <input class="input name" type="text" placeholder="Ваше имя">
+      <input class="input phone" type="tel" placeholder="+7(000)000-0000">
+      <input class="input email" type="email" placeholder="Ваш e-mail">
+      <input class="input text" type="text" placeholder="Введите любой текст">
+      <button class="btn" id="check" type="button">Регистрация</button>
+    </form>
+    <script src="task1.js"></script>
+    <script src="task2.js"></script>
+    <script src="task3.js"></script>
+    <script>
+        window.onload = () => {
+            document.getElementById('check').addEventListener('click', () => {
+                //event.preventDefault();
+                let form = new Form('name', 'phone', 'email', 'text');
+            })
+        }
+    </script>
+</body>
+</html>
