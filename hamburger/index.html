@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Гамбургерия</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<header>
+    <h1>Гамбургерия</h1>
+</header>
+<form class="hidden">
+    <div class="hamburger_size">
+        <h3>Выберите размер гамбургера:</h3>
+        <input type="radio" id="small" name="burger_size" value="маленький" data-price="50" data-calories="20">
+        <label for="small">Маленький</label><br>
+        <input type="radio" id="big" name="burger_size" value="большой" data-price="100" data-calories="40">
+        <label for="big">Большой</label><br>
+    </div>
+    <div class="hamburger_filling">
+          <h3>Добавьте начинку:</h3>
+          <input type="radio" id="filling1" name="filling" value="сыр" data-price="10" data-calories="20">
+          <label for="filling1"> Сыр</label><br>
+          <input type="radio" id="filling2" name="filling" value="салат" data-price="20" data-calories="5">
+          <label for="filling2"> Салат</label><br>
+          <input type="radio" id="filling3" name="filling" value="картофель" data-price="15" data-calories="10">
+          <label for="filling3"> Картофель</label>
+    </div>
+    <div class="hamburger_topping">
+          <h3>Добавьте топпинг:</h3>
+          <input type="checkbox" id="topping1" name="topping1" value="приправа" data-price="15" data-calories="0">
+          <label for="topping1"> Приправа</label><br>
+          <input type="checkbox" id="topping2" name="topping2" value="майонез" data-price="20" data-calories="5">
+          <label for="topping2"> Майонез</label><br>
+    </div>
+    <input class="submit-btn" type="submit" value="Приготовить!">
+</form>
+
+
+
+<script src="./js/main.js"></script>
+</body>
+</html>

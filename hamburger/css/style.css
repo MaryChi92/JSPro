@@ -1,0 +1,38 @@
+body{
+    background: #000 url('../img/big.webp'); /* Фоновый цвет и фоновый рисунок*/
+    color: #fff; /*Цвет текста на странице*/
+	background-attachment: fixed; /* Фон страницы фиксируется */
+	background-repeat: no-repeat; /* Изображение повторяется по горизонтали */
+    background-size: 100%;
+}
+
+header{
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+    padding-left: 15px;
+}
+
+form{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding-left: 15px;
+}
+
+.submit-btn{
+    margin-top: 20px;
+}
+
+.total{
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.final-text{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
